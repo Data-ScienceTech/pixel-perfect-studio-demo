@@ -6,6 +6,7 @@ import { sentryVitePlugin } from "@sentry/vite-plugin";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: "/pixel-perfect-studio-demo/",
   base: process.env.VITE_BASE_PATH || "/",
   server: {
     host: "::",

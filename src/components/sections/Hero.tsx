@@ -33,7 +33,7 @@ export const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
               size="lg" 
-              className="text-lg px-8 py-6 bg-blue-600 hover:bg-blue-700 transform hover:scale-105 transition-all duration-200"
+              className="text-lg px-8 py-6 bg-pink-600 hover:bg-pink-700 transform hover:scale-105 transition-all duration-200"
               onClick={handleCTAClick}
             >
               {t('hero.cta')}

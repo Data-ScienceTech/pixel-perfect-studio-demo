@@ -57,18 +57,18 @@ export const Footer = () => {
             Website created by{' '}
             <a 
               href="mailto:info@datasciencetech.ca" 
-              className="text-pink-400 hover:text-blue-300 transition-colors"
+              className="text-pink-400 hover:text-pink-300 transition-colors"
             >
               Data Science Tech
             </a>
           </p>
           <p className="text-sm mt-1">
             This website uses cookies and analytics to improve user experience. View our{' '}
-            <Link to="/privacy-policy" className="text-pink-400 hover:text-blue-300 transition-colors">
+            <Link to="/privacy-policy" className="text-pink-400 hover:text-pink-300 transition-colors">
               privacy policy
             </Link>
             {' '}and{' '}
-            <Link to="/terms" className="text-pink-400 hover:text-blue-300 transition-colors">
+            <Link to="/terms" className="text-pink-400 hover:text-pink-300 transition-colors">
               terms of service
             </Link>
             {' '}for details.

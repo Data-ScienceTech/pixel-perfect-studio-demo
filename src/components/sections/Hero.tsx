@@ -18,15 +18,15 @@ export const Hero = () => {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-pink-50 via-white to-pink-50">
-      <div className="absolute inset-0 bg-gradient-to-br from-pink-600/5 via-transparent to-purple-600/5"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-pink-600/5 via-transparent to-amber-600/5"></div>
       
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 leading-tight">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-amber-900 mb-6 leading-tight">
             {t('hero.headline')}
           </h1>
           
-          <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed max-w-3xl mx-auto">
+          <p className="text-xl md:text-2xl text-amber-600 mb-8 leading-relaxed max-w-3xl mx-auto">
             {t('hero.subheadline')}
           </p>
           
@@ -41,7 +41,7 @@ export const Hero = () => {
             <Button 
               variant="outline" 
               size="lg"
-              className="text-lg px-8 py-6 hover:bg-gray-50 transition-all duration-200"
+              className="text-lg px-8 py-6 hover:bg-amber-50 transition-all duration-200"
               onClick={() => document.getElementById('features')?.scrollIntoView({ behavior: 'smooth' })}
             >
               {t('hero.cta_secondary')}
@@ -50,7 +50,7 @@ export const Hero = () => {
         </div>
         
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <ArrowDown className="h-6 w-6 text-gray-400" />
+          <ArrowDown className="h-6 w-6 text-amber-400" />
         </div>
       </div>
     </section>

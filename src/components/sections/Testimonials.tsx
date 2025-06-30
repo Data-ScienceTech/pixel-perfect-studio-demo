@@ -27,10 +27,10 @@ export const Testimonials = () => {
   };
 
   return (
-    <section id="testimonials" className="py-20 bg-gray-50">
+    <section id="testimonials" className="py-20 bg-amber-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-amber-900 mb-4">
             {t('testimonials.title')}
           </h2>
         </div>
@@ -39,14 +39,14 @@ export const Testimonials = () => {
           <Card className="shadow-lg">
             <CardContent className="p-8 md:p-12 text-center">
               <div className="mb-8">
-                <blockquote className="text-xl md:text-2xl text-gray-700 leading-relaxed mb-8">
+                <blockquote className="text-xl md:text-2xl text-amber-700 leading-relaxed mb-8">
                   "{t(`testimonials.testimonial${currentIndex + 1}.text`)}"
                 </blockquote>
                 <div>
-                  <div className="font-semibold text-gray-900 text-lg">
+                  <div className="font-semibold text-amber-900 text-lg">
                     {t(`testimonials.testimonial${currentIndex + 1}.author`)}
                   </div>
-                  <div className="text-gray-600">
+                  <div className="text-amber-600">
                     {t(`testimonials.testimonial${currentIndex + 1}.position`)}
                   </div>
                 </div>
@@ -70,7 +70,7 @@ export const Testimonials = () => {
                   key={index}
                   onClick={() => setCurrentIndex(index)}
                   className={`w-3 h-3 rounded-full transition-colors ${
-                    index === currentIndex ? 'bg-pink-600' : 'bg-gray-300'
+                    index === currentIndex ? 'bg-pink-600' : 'bg-amber-300'
                   }`}
                 />
               ))}

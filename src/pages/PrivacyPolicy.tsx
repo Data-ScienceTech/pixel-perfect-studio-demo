@@ -96,7 +96,7 @@ const PrivacyPolicy = () => {
                   <p><strong>Email:</strong> [CLIENT_EMAIL]</p>
                   <p><strong>Phone:</strong> [CLIENT_PHONE]</p>
                   <p><strong>Address:</strong> [CLIENT_ADDRESS]</p>
-                  <div className="mt-3 pt-3 border-t border-blue-200">
+                  <div className="mt-3 pt-3 border-t border-pink-200">
                     <p className="text-sm text-gray-600">
                       <strong>Website created by:</strong>{' '}
                       <a 

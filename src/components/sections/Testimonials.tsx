@@ -70,7 +70,7 @@ export const Testimonials = () => {
                   key={index}
                   onClick={() => setCurrentIndex(index)}
                   className={`w-3 h-3 rounded-full transition-colors ${
-                    index === currentIndex ? 'bg-blue-600' : 'bg-gray-300'
+                    index === currentIndex ? 'bg-pink-600' : 'bg-gray-300'
                   }`}
                 />
               ))}

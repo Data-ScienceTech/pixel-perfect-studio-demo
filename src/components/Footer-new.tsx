@@ -10,7 +10,7 @@ export const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
-            <div className="text-2xl font-bold text-blue-400 mb-4">
+            <div className="text-2xl font-bold text-pink-400 mb-4">
               Pixel Perfect Studio
             </div>
             <p className="text-gray-400 mb-4 max-w-md">
@@ -49,14 +49,14 @@ export const Footer = () => {
             Website created by{' '}
             <a 
               href="mailto:info@datasciencetech.ca" 
-              className="text-blue-400 hover:text-blue-300 transition-colors"
+              className="text-pink-400 hover:text-blue-300 transition-colors"
             >
               Data Science Tech
             </a>
           </p>
           <p className="text-sm mt-1">
             This website collects data to improve user experience. View our{' '}
-            <a href="/privacy-policy" className="text-blue-400 hover:text-blue-300 transition-colors">
+            <a href="/privacy-policy" className="text-pink-400 hover:text-blue-300 transition-colors">
               Privacy Policy
             </a>
             {' '}for details.

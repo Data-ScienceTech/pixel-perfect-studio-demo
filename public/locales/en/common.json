@@ -62,7 +62,8 @@
       "submit": "Send Message",
       "success": "Thank you! We'll get back to you soon.",
       "error": "Please fill in all required fields."
-    }
+    },
+    "address": "123 Business Street, City, State 12345"
   },
   "about": {
     "title": "About Us",

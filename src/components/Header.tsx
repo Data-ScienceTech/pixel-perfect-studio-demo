@@ -27,7 +27,7 @@ export const Header = () => {
     <header className="fixed top-0 left-0 right-0 bg-white/90 backdrop-blur-md z-40 border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">          <div className="flex items-center">
-            <div className="text-2xl font-bold text-blue-600">
+            <div className="text-2xl font-bold text-pink-600">
               Pixel Perfect Studio
             </div>
           </div>
@@ -37,7 +37,7 @@ export const Header = () => {
               <button
                 key={item.name}
                 onClick={() => scrollToSection(item.href)}
-                className="text-gray-700 hover:text-blue-600 transition-colors font-medium"
+                className="text-gray-700 hover:text-pink-600 transition-colors font-medium"
               >
                 {item.name}
               </button>
@@ -75,7 +75,7 @@ export const Header = () => {
                 <button
                   key={item.name}
                   onClick={() => scrollToSection(item.href)}
-                  className="text-left text-gray-700 hover:text-blue-600 transition-colors font-medium"
+                  className="text-left text-gray-700 hover:text-pink-600 transition-colors font-medium"
                 >
                   {item.name}
                 </button>

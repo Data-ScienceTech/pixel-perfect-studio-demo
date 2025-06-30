@@ -49,14 +49,14 @@ export const Footer = () => {
             Website created by{' '}
             <a 
               href="mailto:info@datasciencetech.ca" 
-              className="text-pink-400 hover:text-blue-300 transition-colors"
+              className="text-pink-400 hover:text-pink-300 transition-colors"
             >
               Data Science Tech
             </a>
           </p>
           <p className="text-sm mt-1">
             This website collects data to improve user experience. View our{' '}
-            <a href="/privacy-policy" className="text-pink-400 hover:text-blue-300 transition-colors">
+            <a href="/privacy-policy" className="text-pink-400 hover:text-pink-300 transition-colors">
               Privacy Policy
             </a>
             {' '}for details.

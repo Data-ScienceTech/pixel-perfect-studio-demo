@@ -24,7 +24,7 @@ export const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 bg-white/90 backdrop-blur-md z-40 border-b border-gray-200">
+    <header className="fixed top-0 left-0 right-0 bg-white/90 backdrop-blur-md z-40 border-b border-amber-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">          <div className="flex items-center">
             <div className="text-2xl font-bold text-pink-600">
@@ -37,7 +37,7 @@ export const Header = () => {
               <button
                 key={item.name}
                 onClick={() => scrollToSection(item.href)}
-                className="text-gray-700 hover:text-pink-600 transition-colors font-medium"
+                className="text-amber-700 hover:text-pink-600 transition-colors font-medium"
               >
                 {item.name}
               </button>
@@ -60,22 +60,22 @@ export const Header = () => {
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
               <div className="w-6 h-6 flex flex-col justify-center space-y-1">
-                <div className={`h-0.5 bg-gray-600 transition-all ${isMenuOpen ? 'rotate-45 translate-y-1' : ''}`}></div>
-                <div className={`h-0.5 bg-gray-600 transition-all ${isMenuOpen ? 'opacity-0' : ''}`}></div>
-                <div className={`h-0.5 bg-gray-600 transition-all ${isMenuOpen ? '-rotate-45 -translate-y-1' : ''}`}></div>
+                <div className={`h-0.5 bg-amber-600 transition-all ${isMenuOpen ? 'rotate-45 translate-y-1' : ''}`}></div>
+                <div className={`h-0.5 bg-amber-600 transition-all ${isMenuOpen ? 'opacity-0' : ''}`}></div>
+                <div className={`h-0.5 bg-amber-600 transition-all ${isMenuOpen ? '-rotate-45 -translate-y-1' : ''}`}></div>
               </div>
             </button>
           </div>
         </div>
         
         {isMenuOpen && (
-          <div className="md:hidden py-4 border-t border-gray-200">
+          <div className="md:hidden py-4 border-t border-amber-200">
             <nav className="flex flex-col space-y-4">
               {navigation.map((item) => (
                 <button
                   key={item.name}
                   onClick={() => scrollToSection(item.href)}
-                  className="text-left text-gray-700 hover:text-pink-600 transition-colors font-medium"
+                  className="text-left text-amber-700 hover:text-pink-600 transition-colors font-medium"
                 >
                   {item.name}
                 </button>

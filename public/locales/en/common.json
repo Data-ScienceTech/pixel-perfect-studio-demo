@@ -63,7 +63,8 @@
       "success": "Thank you! We'll get back to you soon.",
       "error": "Please fill in all required fields."
     },
-    "address": "123 Business Street, City, State 12345"
+    "address": "123 Business Street, City, State 12345",
+    "hours": "Monday - Friday: 9:00 AM - 6:00 PM"
   },
   "about": {
     "title": "About Us",

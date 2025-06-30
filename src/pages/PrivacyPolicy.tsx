@@ -92,7 +92,7 @@ const PrivacyPolicy = () => {
                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">6. Contact Information</h2>
                 <p className="text-gray-700 leading-relaxed">
                   If you have any questions about this Privacy Policy, please contact us at:
-                </p>                <div className="bg-blue-50 p-4 rounded-lg mt-4">
+                </p>                <div className="bg-pink-50 p-4 rounded-lg mt-4">
                   <p><strong>Email:</strong> [CLIENT_EMAIL]</p>
                   <p><strong>Phone:</strong> [CLIENT_PHONE]</p>
                   <p><strong>Address:</strong> [CLIENT_ADDRESS]</p>

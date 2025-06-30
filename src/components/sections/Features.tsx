@@ -32,7 +32,7 @@ export const Features = () => {
               <Card key={num} className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                 <CardContent className="p-8 text-center">
                   <div className="inline-flex items-center justify-center w-16 h-16 bg-pink-100 rounded-full mb-6 group-hover:bg-pink-200 transition-colors">
-                    <IconComponent className="h-8 w-8 text-blue-600" />
+                    <IconComponent className="h-8 w-8 text-pink-600" />
                   </div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-4">
                     {t(`features.feature${num}.title`)}
